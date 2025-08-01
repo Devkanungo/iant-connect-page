@@ -5,7 +5,7 @@ import { Menu, X, MessageCircle } from "lucide-react";
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const whatsappLink = "https://wa.me/919876543210?text=Hi%20I%20am%20interested%20in%20your%20courses";
+  const whatsappLink = "https://wa.me/917415176611?text=Hi%20I%20am%20interested%20in%20your%20courses";
 
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
@@ -25,6 +25,7 @@ const Header = () => {
               <span className="text-white font-bold text-sm">I</span>
             </div>
             <span className="text-xl font-bold text-foreground">IANT</span>
+            <span className="text-xs text-muted-foreground ml-1">(Institute of Advance Network Technology)</span>
           </div>
 
           {/* Desktop Navigation */}
@@ -46,12 +47,6 @@ const Header = () => {
               className="text-foreground hover:text-primary transition-colors"
             >
               About
-            </button>
-            <button 
-              onClick={() => scrollToSection('testimonials')}
-              className="text-foreground hover:text-primary transition-colors"
-            >
-              Testimonials
             </button>
             <button 
               onClick={() => scrollToSection('contact')}
@@ -104,12 +99,6 @@ const Header = () => {
                 className="text-left text-foreground hover:text-primary transition-colors"
               >
                 About
-              </button>
-              <button 
-                onClick={() => scrollToSection('testimonials')}
-                className="text-left text-foreground hover:text-primary transition-colors"
-              >
-                Testimonials
               </button>
               <button 
                 onClick={() => scrollToSection('contact')}

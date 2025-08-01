@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, MessageCircle, Play } from "lucide-react";
 
 const HeroSection = () => {
-  const whatsappLink = "https://wa.me/919876543210?text=Hi%20I%20am%20interested%20in%20your%20courses";
+  const whatsappLink = "https://wa.me/917415176611?text=Hi%20I%20am%20interested%20in%20your%20courses";
 
   return (
     <section id="home" className="min-h-screen bg-gradient-to-br from-primary via-primary-light to-accent flex items-center pt-16">
@@ -40,14 +40,6 @@ const HeroSection = () => {
                 </a>
               </Button>
               
-              <Button 
-                variant="outline" 
-                size="lg"
-                className="border-white text-white hover:bg-white hover:text-primary bg-transparent text-lg px-8 py-6 rounded-xl"
-              >
-                <Play className="w-5 h-5 mr-2" />
-                Watch Demo
-              </Button>
             </div>
             
             {/* Stats */}

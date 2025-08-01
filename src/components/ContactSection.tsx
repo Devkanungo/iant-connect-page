@@ -3,7 +3,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { MapPin, Phone, Mail, MessageCircle, Clock } from "lucide-react";
 
 const ContactSection = () => {
-  const whatsappLink = "https://wa.me/919876543210?text=Hi%20I%20am%20interested%20in%20your%20courses";
+  const whatsappLink = "https://wa.me/917415176611?text=Hi%20I%20am%20interested%20in%20your%20courses";
 
   return (
     <section id="contact" className="py-20 bg-secondary">
@@ -29,8 +29,8 @@ const ContactSection = () => {
                   <div>
                     <h3 className="font-semibold text-foreground mb-2">Visit Our Campus</h3>
                     <p className="text-muted-foreground">
-                      123 IT Park, Scheme No. 54,<br />
-                      Vijay Nagar, Indore, MP 452010
+                      168/169, Behind C21 Mall, Scheme No. 54,<br />
+                      Vijay Nagar, Indore, MP
                     </p>
                   </div>
                 </div>
@@ -46,8 +46,7 @@ const ContactSection = () => {
                   <div>
                     <h3 className="font-semibold text-foreground mb-2">Call Us</h3>
                     <p className="text-muted-foreground">
-                      +91 98765 43210<br />
-                      +91 87654 32109
+                      +91 98269 26611
                     </p>
                   </div>
                 </div>
@@ -63,8 +62,7 @@ const ContactSection = () => {
                   <div>
                     <h3 className="font-semibold text-foreground mb-2">Email Us</h3>
                     <p className="text-muted-foreground">
-                      info@iant.edu.in<br />
-                      admissions@iant.edu.in
+                      indoreiant@gmail.com
                     </p>
                   </div>
                 </div>
@@ -110,23 +108,8 @@ const ContactSection = () => {
             </Card>
           </div>
 
-          {/* Google Map */}
+          {/* Quick Contact Form */}
           <div className="space-y-6">
-            <Card className="border-0 shadow-lg overflow-hidden">
-              <CardContent className="p-0">
-                <div className="w-full h-96 bg-gradient-to-br from-primary/10 to-accent/10 flex items-center justify-center">
-                  <div className="text-center">
-                    <MapPin className="w-16 h-16 text-primary mx-auto mb-4" />
-                    <h3 className="text-xl font-semibold text-foreground mb-2">Interactive Map</h3>
-                    <p className="text-muted-foreground">
-                      Find us easily in the heart of Indore's IT hub
-                    </p>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-
-            {/* Quick Contact Form */}
             <Card className="border-0 shadow-lg">
               <CardContent className="p-6">
                 <h3 className="text-xl font-semibold text-foreground mb-4">Quick Contact</h3>

@@ -1,7 +1,7 @@
 import { Facebook, Twitter, Instagram, Linkedin, MessageCircle, Mail, Phone } from "lucide-react";
 
 const Footer = () => {
-  const whatsappLink = "https://wa.me/919876543210?text=Hi%20I%20am%20interested%20in%20your%20courses";
+  const whatsappLink = "https://wa.me/917415176611?text=Hi%20I%20am%20interested%20in%20your%20courses";
 
   return (
     <footer className="bg-foreground text-white py-12">
@@ -14,6 +14,7 @@ const Footer = () => {
                 <span className="text-white font-bold text-sm">I</span>
               </div>
               <span className="text-xl font-bold">IANT</span>
+              <span className="text-sm text-white/60 block">(Institute of Advance Network Technology)</span>
             </div>
             <p className="text-white/80 mb-4">
               Leading IT training institute in Indore, transforming careers with industry-relevant courses and 100% placement assistance.
@@ -54,11 +55,6 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="#testimonials" className="text-white/80 hover:text-primary transition-colors">
-                  Testimonials
-                </a>
-              </li>
-              <li>
                 <a href="#contact" className="text-white/80 hover:text-primary transition-colors">
                   Contact
                 </a>
@@ -92,7 +88,7 @@ const Footer = () => {
               </li>
               <li>
                 <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-primary transition-colors">
-                  Tally with GST
+                  Networking
                 </a>
               </li>
             </ul>
@@ -104,16 +100,16 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-2">
                 <Phone className="w-4 h-4 text-primary" />
-                <span className="text-white/80">+91 98765 43210</span>
+                <span className="text-white/80">+91 98269 26611</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="w-4 h-4 text-primary" />
-                <span className="text-white/80">info@iant.edu.in</span>
+                <span className="text-white/80">indoreiant@gmail.com</span>
               </div>
               <div className="flex items-start space-x-2">
                 <MessageCircle className="w-4 h-4 text-primary mt-1" />
                 <span className="text-white/80">
-                  123 IT Park, Scheme No. 54,<br />
+                  168/169, Behind C21 Mall, Scheme No. 54,<br />
                   Vijay Nagar, Indore, MP
                 </span>
               </div>

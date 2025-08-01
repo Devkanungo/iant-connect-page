@@ -3,7 +3,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Clock, Users, Award, MessageCircle } from "lucide-react";
 
 const CoursesSection = () => {
-  const whatsappLink = "https://wa.me/919876543210?text=Hi%20I%20am%20interested%20in%20your%20courses";
+  const whatsappLink = "https://wa.me/917415176611?text=Hi%20I%20am%20interested%20in%20your%20courses";
 
   const courses = [
     {
@@ -39,12 +39,12 @@ const CoursesSection = () => {
       features: ["Network Security", "Penetration Testing", "Digital Forensics", "Certifications"]
     },
     {
-      title: "Tally with GST",
-      description: "Complete accounting software training with GST compliance",
-      duration: "2 Months",
-      students: "3000+",
-      icon: "📈",
-      features: ["Tally Prime", "GST Filing", "Inventory Management", "Financial Reports"]
+      title: "Networking",
+      description: "Master computer networking fundamentals and advanced concepts",
+      duration: "3 Months",
+      students: "1500+",
+      icon: "🌐",
+      features: ["Network Basics", "Cisco CCNA", "Network Security", "Troubleshooting"]
     },
     {
       title: "Digital Marketing",
