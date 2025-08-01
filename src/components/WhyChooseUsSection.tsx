@@ -38,7 +38,7 @@ const WhyChooseUsSection = () => {
   return (
     <section id="about" className="py-20 bg-background">
       <div className="container mx-auto px-4 lg:px-6">
-        <div className="text-center mb-16">
+        <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl font-bold text-foreground mb-4">
             Why Choose IANT?
           </h2>
@@ -51,7 +51,7 @@ const WhyChooseUsSection = () => {
           {features.map((feature, index) => {
             const IconComponent = feature.icon;
             return (
-              <Card key={index} className="group hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border-0 shadow-lg">
+              <Card key={index} className={`group hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border-0 shadow-lg animate-scale-in`} style={{animationDelay: `${index * 0.1}s`}}>
                 <CardContent className="p-6 text-center">
                   <div className="w-16 h-16 bg-gradient-to-br from-primary to-accent rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
                     <IconComponent className="w-8 h-8 text-white" />

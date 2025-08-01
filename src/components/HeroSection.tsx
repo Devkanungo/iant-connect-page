@@ -9,8 +9,8 @@ const HeroSection = () => {
       <div className="container mx-auto px-4 lg:px-6">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Hero Content */}
-          <div className="text-center lg:text-left">
-            <div className="inline-flex items-center bg-white/10 backdrop-blur-sm rounded-full px-4 py-2 mb-6">
+          <div className="text-center lg:text-left animate-slide-in-left">
+            <div className="inline-flex items-center bg-white/10 backdrop-blur-sm rounded-full px-4 py-2 mb-6 animate-bounce-gentle">
               <span className="text-white text-sm font-medium">🎯 100% Placement Guarantee</span>
             </div>
             
@@ -68,8 +68,8 @@ const HeroSection = () => {
           </div>
           
           {/* Hero Image/Visual */}
-          <div className="relative">
-            <div className="relative z-10 bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
+          <div className="relative animate-slide-in-right">
+            <div className="relative z-10 bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20 animate-scale-in">
               <div className="grid grid-cols-2 gap-4">
                 <div className="bg-white/20 rounded-lg p-4 text-center">
                   <div className="text-2xl mb-2">🐍</div>

@@ -59,7 +59,7 @@ const CoursesSection = () => {
   return (
     <section id="courses" className="py-20 bg-secondary">
       <div className="container mx-auto px-4 lg:px-6">
-        <div className="text-center mb-16">
+        <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl font-bold text-foreground mb-4">
             Popular Courses
           </h2>
@@ -70,7 +70,7 @@ const CoursesSection = () => {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {courses.map((course, index) => (
-            <Card key={index} className="group hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border-0 shadow-lg bg-gradient-to-b from-card to-secondary">
+            <Card key={index} className={`group hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border-0 shadow-lg bg-gradient-to-b from-card to-secondary animate-scale-in`} style={{animationDelay: `${index * 0.1}s`}}>
               <CardHeader>
                 <div className="text-4xl mb-4">{course.icon}</div>
                 <CardTitle className="text-xl mb-2 group-hover:text-primary transition-colors">
