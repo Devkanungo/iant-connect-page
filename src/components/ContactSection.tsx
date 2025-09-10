@@ -128,9 +128,10 @@ const ContactSection = () => {
                     <option>Select Course</option>
                     <option>Python Programming</option>
                     <option>Full Stack Development</option>
-                    <option>Data Science</option>
+                    <option>Data Science & Analytics</option>
                     <option>Ethical Hacking</option>
-                    <option>Tally with GST</option>
+                    <option>Networking</option>
+                    <option>Digital Marketing</option>
                   </select>
                   <Button 
                     asChild
