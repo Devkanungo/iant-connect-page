@@ -2,10 +2,10 @@ import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 import CoursesSection from "@/components/CoursesSection";
 import WhyChooseUsSection from "@/components/WhyChooseUsSection";
-import TestimonialsSection from "@/components/TestimonialsSection";
 import GallerySection from "@/components/GallerySection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
+import ScrollPopup from "@/components/ScrollPopup";
 
 const Index = () => {
   return (
@@ -14,10 +14,10 @@ const Index = () => {
       <HeroSection />
       <CoursesSection />
       <WhyChooseUsSection />
-      
       <GallerySection />
       <ContactSection />
       <Footer />
+      <ScrollPopup />
     </div>
   );
 };
